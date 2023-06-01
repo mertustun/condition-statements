@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(100, 100, 100);
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.border-cont{
+    padding: 70px;
+    background-color: rgb(185, 185, 185);
+    border: 5px dotted black;
+    text-align: center;
+}
+#greeting {
+    margin-bottom: 20px;
+    background-color: rgb(185, 185, 185);
+}
+#info {
+    background-color: rgb(185, 185, 185);
+    margin-top: 20px;
+    font-size: larger;
+}
+#ExamResult::placeholder{
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 185, 185);
+}
+.text-primary {
+    color: rgb(0, 216, 0);
+}
+.text-danger{
+    color: rgb(250, 49, 49);
+}
+.text-no-data {
+    color: black;
+} 
